@@ -2,7 +2,7 @@ public class Task2 {
     //Given 2 strings, return their concatenation, except omit the first char of each. The strings will be at least length 1.
 
     public String nonStart(String a, String b) {
-        if (a.length()>=1 && b.length()>=1) {
+        if (a.length()>= 1 && b.length() >= 1) {
         return (a.substring(1) + b.substring(1));
         }
         return "";
@@ -11,8 +11,8 @@ public class Task2 {
     //Given an array of ints, return true if the array is length 1 or more, and the first element and the last element are equal.
 
     public boolean sameFirstLast(int[] nums) {
-        if (nums.length>=1){
-            if (nums[0]==nums[nums.length-1]) {
+        if (nums.length >= 1){
+            if (nums[0] == nums[nums.length-1]) {
                 return true;
             }
         }
@@ -23,7 +23,7 @@ public class Task2 {
 
     public boolean more20(int n) {
         if (n >= 0) {
-        if (n%20==1 || n%20==2) {
+        if (n%20 == 1 || n%20 == 2) {
             return true;
         }
         }

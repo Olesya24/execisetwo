@@ -22,7 +22,7 @@ public class Task2Test {
         String expected3 = "by";
         String expected4 = "b";
         String expected5 = "c";
-        String expected6= "avaore";
+        String expected6 = "avaore";
 
 
         //THEN
@@ -82,7 +82,7 @@ public class Task2Test {
     @Test
     public void makeChocolateTest() {
         //GIVEN
-        Task2 bar= new Task2();
+        Task2 bar = new Task2();
 
         //THEN
         int actualbar1 = bar.makeChocolate(4, 1, 9);
@@ -107,7 +107,7 @@ public class Task2Test {
     @Test
     public void xyBalanceTest() {
         //GIVEN
-        Task2 balance= new Task2();
+        Task2 balance = new Task2();
 
         //THEN
         boolean actualBalance1 = balance.xyBalance("");
